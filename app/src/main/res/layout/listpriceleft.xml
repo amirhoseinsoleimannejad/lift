@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+
+        android:layout_height="50dp">
+
+
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+            <TableRow
+                android:weightSum="100"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_weight="20"
+                    android:background="@color/color2"
+
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@color/color1"
+                    android:layout_weight="20"
+
+
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/mobile"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@color/color2"
+                    android:layout_weight="20"
+
+
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@color/color1"
+                    android:layout_weight="20"
+                    />
+
+
+
+
+                <Button
+                    android:id="@+id/payment"
+                    android:background="@color/white"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail"
+                    android:layout_weight="20"
+
+                    />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
